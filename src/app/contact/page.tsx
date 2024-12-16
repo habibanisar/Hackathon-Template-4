@@ -14,7 +14,11 @@ const contact = () => {
             Contact Us
           </h3>
           <h5 className="text-navyblue text-sm sm:text-base md:text-xl font-bold mb-4">
-            Home. Pages. My Account
+            Home. Pages.
+            <span className="text-pink text-sm sm:text-base md:text-xl font-bold mb-4">
+              {" "}
+              Contact Us
+            </span>
           </h5>
         </div>
       </div>

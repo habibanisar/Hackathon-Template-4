@@ -20,9 +20,13 @@ export default function Navbar() {
           </li>
         </Link>
         <li className="hover:text-violet-500 cursor-pointer text-lg">Pages</li>
+        <Link href="/products">
         <li className="hover:text-violet-500 cursor-pointer text-lg">Products</li>
+        </Link>
         <li className="hover:text-violet-500 cursor-pointer text-lg">Blog</li>
-        <li className="hover:text-violet-500 cursor-pointer text-lg">Shop</li>  
+        <Link href="/shop">
+        <li className="hover:text-violet-500 cursor-pointer text-lg">Shop</li> 
+        </Link> 
         <Link href="/contact">
           <li className="hover:text-violet-500 cursor-pointer text-lg">Contact</li>
         </Link>
