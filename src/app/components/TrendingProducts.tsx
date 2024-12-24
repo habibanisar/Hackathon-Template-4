@@ -237,8 +237,8 @@ const TrendingProducts = () => {
                     src={category.image}
                     alt={category.name}
                     className="w-24 h-24 object-contain transition-transform duration-300 group-hover:scale-105"
-                    width={96} // 24*4 (for w-24) to convert to px
-                    height={96} // 24*4 (for h-24) to convert to px
+                    width={96}
+                    height={96}
                   />
 
                   {/* View Button on Hover */}
@@ -268,8 +268,8 @@ const TrendingProducts = () => {
         src="/images/Rectangle 102.png"
         alt="Get Latest Update"
         className="w-full h-full object-cover"
-        width={1920} // Aapke image ke width ko specify karein (e.g., 1920px for full-width image)
-        height={1080} // Aapke image ke height ko specify karein (e.g., 1080px for full-height image)
+        width={1920} 
+        height={1080}
        />
   <div className="absolute inset-0 flex flex-col items-center justify-center">
     <h3 className="text-navyblue text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
